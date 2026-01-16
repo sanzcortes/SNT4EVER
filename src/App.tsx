@@ -57,6 +57,18 @@ function App() {
 
         <NewsEvents />
 
+        <section id="instagram" className="section-padding bg-black">
+          <div className="container-snt">
+            <h2 className="text-4xl md:text-5xl font-bold text-yellow mb-8 text-center">
+              Instagram Feed
+            </h2>
+            <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto mb-12">
+              Latest updates from our community
+            </p>
+          </div>
+        </section>
+        <InstagramFeed />
+        
         <section id="join" className="section-padding bg-black">
           <div className="container-snt">
             <h2 className="text-4xl md:text-5xl font-bold text-yellow mb-8 text-center">
@@ -76,13 +88,13 @@ function App() {
             <h2 className="text-4xl md:text-5xl font-bold text-yellow mb-8 text-center">
               Contact
             </h2>
-            <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto">
+            <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto mb-8">
               Get in touch with us for collaborations, donations, or any questions about the project.
             </p>
           </div>
         </section>
-      </main>
-      <Footer />
+        
+        <Footer />
     </div>
   );
 }

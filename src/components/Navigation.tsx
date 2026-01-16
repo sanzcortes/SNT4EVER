@@ -11,6 +11,7 @@ const Navigation = () => {
     { label: 'Our story', href: '#story' },
     { label: 'Archive', href: '#archive' },
     { label: 'News/Events', href: '#news' },
+    { label: 'Instagram', href: '#instagram' },
     { label: 'Docs', href: '#docs' },
     { label: 'Join us!', href: '#join' },
     { label: 'Contact', href: '#contact' },

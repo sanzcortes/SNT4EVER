@@ -5,6 +5,7 @@ import ImageGallery from './components/ImageGallery';
 import { VideoGallery } from './components/YouTubePlayer';
 import NewsEvents from './components/NewsEvents';
 import Footer from './components/Footer';
+import InstagramFeed from './components/InstagramFeed';
 
 function App() {
   return (
@@ -68,7 +69,6 @@ function App() {
           </div>
         </section>
         <InstagramFeed />
-        
         <section id="join" className="section-padding bg-black">
           <div className="container-snt">
             <h2 className="text-4xl md:text-5xl font-bold text-yellow mb-8 text-center">
@@ -95,6 +95,7 @@ function App() {
         </section>
         
         <Footer />
+        </main>
     </div>
   );
 }

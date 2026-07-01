@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Play, Volume2, VolumeX } from 'lucide-react';
 import type { VideoGalleryProps } from '@/types';
+import { useTranslation } from "react-i18next";
 
 interface YouTubePlayerProps {
   videoId: string;
@@ -22,7 +23,8 @@ const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
   showControls = true,
   className = ''
 }) => {
-  const [isPlaying, setIsPlaying] = useState(!autoplay);
+  const { t } = useTranslation();
+  const [isPlaying, setIsPlaying] = useState(autoplay);
   const [isMuted, setIsMuted] = useState(muted);
 
 
@@ -45,7 +47,7 @@ const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
       modestbranding: '1',
       fs: showControls ? '1' : '0',
       controls: showControls ? '1' : '0',
-      autoplay: autoplay ? '1' : '0',
+      autoplay: isPlaying ? '1' : '0', // Siempre autoplay cuando isPlaying es true (cuando montamos el iframe tras clickar)
       mute: muted ? '1' : '0',
       playsinline: '1',
       loop: '0',
@@ -110,8 +112,7 @@ const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
                   {title || 'Watch Video'}
                 </p>
                 <p className="text-white/60 text-sm">
-                  Click to play • YouTube
-                </p>
+                  {t('jsx_click_to_play_youtube')}</p>
               </div>
             </div>
           </div>
@@ -121,19 +122,25 @@ const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
           
           {/* Video Info Badge */}
           <div className="absolute top-4 left-4 bg-black/70 text-white px-3 py-1 rounded-full text-xs">
-            YouTube
-          </div>
+            {t('jsx_youtube')}</div>
         </div>
       )}
     </div>
   );
 };
 
-// Video Gallery Component
+// VideoGallery Component
 export const VideoGallery: React.FC<VideoGalleryProps> = ({ videos }) => {
+  const { t } = useTranslation();
+  const [showAll, setShowAll] = useState(false);
+
+  const sortedVideos = [...videos].sort((a, b) => (b.year || 0) - (a.year || 0));
+  const displayedVideos = showAll ? sortedVideos : sortedVideos.slice(0, 6);
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {videos.map((video) => (
+    <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {displayedVideos.map((video) => (
         <motion.div
           key={video.id}
           initial={{ opacity: 0, y: 20 }}
@@ -142,7 +149,7 @@ export const VideoGallery: React.FC<VideoGalleryProps> = ({ videos }) => {
           className="space-y-3"
         >
           <YouTubePlayer
-            videoId={video.id}
+            videoId={video.videoId || video.id}
             title={video.title}
             showControls={true}
           />
@@ -154,6 +161,18 @@ export const VideoGallery: React.FC<VideoGalleryProps> = ({ videos }) => {
           </div>
         </motion.div>
       ))}
+      </div>
+      
+      {!showAll && videos.length > 6 && (
+        <div className="w-full flex justify-center mt-8">
+          <button
+            onClick={() => setShowAll(true)}
+            className="btn-secondary"
+          >
+            {t('jsx_view_more')}
+          </button>
+        </div>
+      )}
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 interface MarqueeProps {
   children: React.ReactNode;
-  speed?: 'slow' | 'normal' | 'fast';
+  speed?: 'slow' | 'normal' | 'fast' | 'superfast';
   direction?: 'left' | 'right';
   pauseOnHover?: boolean;
   className?: string;
@@ -38,15 +38,15 @@ const Marquee: React.FC<MarqueeProps> = ({
   };
 
   const getAnimationDirection = () => {
-    return direction === 'left' ? [0, -100] : [-100, 0];
+    return direction === 'left' ? ["0%", "-33.333333%"] : ["-33.333333%", "0%"];
   };
 
   return (
     <div className={`w-full overflow-hidden ${className}`}>
       <motion.div
-        className="flex whitespace-nowrap"
+        className="flex whitespace-nowrap w-max"
         initial={{
-          x: direction === 'left' ? 0 : -100,
+          x: direction === 'left' ? "0%" : "-33.333333%",
         }}
         animate={{
           x: getAnimationDirection(),

@@ -50,6 +50,7 @@ const Footer = () => {
           items: [
             { name: 'DAVID SUSKO', handle: '@___susko', role: 'por las fotos' },
             { name: 'ROGER FERRERO', handle: '@rogerferrero', role: 'por las fotos' },
+            { name: 'QUEL', handle: '@quelsunday', role: 'por las fotos' },
             { name: 'AXEL SERRAT', handle: '@agboton', role: 'por las fotos' },
           ]
         }
@@ -61,12 +62,14 @@ const Footer = () => {
         {
           title: 'COLLABORATORS 🤝',
           items: [
+            { name: 'Pol', handle: '@p.t.q', role: 'por todo el diseño de los Sants Fest.' },
+            { name: 'Rafa', handle: '@rrafffael', role: 'por la cobertura en todos los eventos.' },
+            { name: 'Voilà Lab', handle: '@voila.filmlab', role: 'por el apoyo y las ganas de sumar, tanto dentro como fuera del skate.' },
             { name: 'PETSHOP', handle: '@petshopskateboards', role: 'for the support y la lanzadera para la asociación' },
             { name: 'JULIO ARNAU', handle: '@julioarnau', role: 'for the support' },
             { name: 'ALBERTO CASTOR', handle: '@albertokastor', role: 'por las rampas para la asociación' },
             { name: 'TONI LÓPEZ', role: 'por el apoyo, la construcción y hacer de speaker en los eventos' },
             { name: 'AL_UNO', handle: '@al_uno', role: 'por los graffittis para la plaza' },
-            { name: '', handle: '@mujergitana', role: 'por los graffittis para la asociación' },
             { name: 'SNT OG\'S', role: 'por enseñarnos todo lo que sabemos sobre la plaza' },
             { name: 'MARCOS GÓMEZ', handle: '@seniorgomez', role: 'por ser el ejemplo a seguir' },
             { name: 'SNTLOCALS', role: 'por ser las mejores personas con las que rodearse cada dia' },
@@ -164,6 +167,38 @@ const Footer = () => {
               </motion.div>
             ))}
           </div>
+
+          {/* General Acknowledgments Text */}
+          <motion.div variants={itemVariants} className="w-full text-center text-white mb-16 text-sm md:text-base leading-relaxed space-y-6">
+            <p className="text-xl md:text-3xl text-white font-bold mb-12">
+              Queremos hacer un agradecimiento general a todas las personas y entidades que hacen crecer el proyecto cada año.
+            </p>
+            <p>
+              Especialmente a: <strong className="text-yellow">Dolores Magazine</strong>,{' '}
+              <strong className="text-yellow">Raisa</strong> (por aportar la visión de la mujer dentro del skate desde el primer día),{' '}
+              <strong className="text-yellow">08001</strong>,{' '}
+              <strong className="text-yellow">Alcarrer</strong>,{' '}
+              <strong className="text-yellow">Guiri Knows</strong>,{' '}
+              <strong className="text-yellow">Mesa</strong>,{' '}
+              <strong className="text-yellow">Quit</strong>,{' '}
+              <strong className="text-yellow"> Pizza Raval</strong>,{' '}
+              <strong className="text-yellow">Sour Solution</strong>,{' '}
+              <strong className="text-yellow">Rackz</strong>,{' '}
+              <strong className="text-yellow">Blai</strong> (por su apoyo incondicional),{' '}
+              <strong className="text-yellow">Calling All Skaters</strong> (por las meriendas),{' '}
+              <strong className="text-yellow">Vulcano</strong>,{' '}
+              <strong className="text-yellow">Quax Goods</strong>,{' '}
+              <strong className="text-yellow">Atelier_B1</strong>,{' '}
+              <strong className="text-yellow">Escofet</strong>,{' '}
+              <strong className="text-yellow">Ajuntament de Barcelona</strong>,{' '}
+              <strong className="text-yellow">Districte de Sants-Montjuïc</strong>,{' '}
+              <strong className="text-yellow">Urban Agenda</strong>, y{' '}
+              <strong className="text-yellow">Oriol, de la Casa del Mig, y todo su equipo</strong>.
+            </p>
+            <p>
+              Y finalmente, gracias a todos los colaboradores, voluntarios y personas que han formado parte de SNT4EVER y de los Sants Fest durante estos años, porque al final sois los que hacéis que el proyecto siga creciendo edición tras edición.
+            </p>
+          </motion.div>
 
           <Separator className="bg-white/10 mb-12" />
 

@@ -171,11 +171,11 @@ const Footer = () => {
           {/* General Acknowledgments Text */}
           <motion.div variants={itemVariants} className="w-full text-center text-white mb-16 text-sm md:text-base leading-relaxed space-y-6">
             <p className="text-xl md:text-3xl text-white font-bold mb-12">
-              Queremos hacer un agradecimiento general a todas las personas y entidades que hacen crecer el proyecto cada año.
+              {t('footer_thanks_general')}
             </p>
             <p>
-              Especialmente a: <strong className="text-yellow">Dolores Magazine</strong>,{' '}
-              <strong className="text-yellow">Raisa</strong> (por aportar la visión de la mujer dentro del skate desde el primer día),{' '}
+              {t('footer_especially_to')} <strong className="text-yellow">Dolores Magazine</strong>,{' '}
+              <strong className="text-yellow">Raisa</strong> {t('footer_raisa_role')},{' '}
               <strong className="text-yellow">08001</strong>,{' '}
               <strong className="text-yellow">Alcarrer</strong>,{' '}
               <strong className="text-yellow">Guiri Knows</strong>,{' '}
@@ -184,19 +184,19 @@ const Footer = () => {
               <strong className="text-yellow"> Pizza Raval</strong>,{' '}
               <strong className="text-yellow">Sour Solution</strong>,{' '}
               <strong className="text-yellow">Rackz</strong>,{' '}
-              <strong className="text-yellow">Blai</strong> (por su apoyo incondicional),{' '}
-              <strong className="text-yellow">Calling All Skaters</strong> (por las meriendas),{' '}
+              <strong className="text-yellow">Blai</strong> {t('footer_blai_role')},{' '}
+              <strong className="text-yellow">Calling All Skaters</strong> {t('footer_cas_role')},{' '}
               <strong className="text-yellow">Vulcano</strong>,{' '}
               <strong className="text-yellow">Quax Goods</strong>,{' '}
               <strong className="text-yellow">Atelier_B1</strong>,{' '}
               <strong className="text-yellow">Escofet</strong>,{' '}
               <strong className="text-yellow">Ajuntament de Barcelona</strong>,{' '}
               <strong className="text-yellow">Districte de Sants-Montjuïc</strong>,{' '}
-              <strong className="text-yellow">Urban Agenda</strong>, y{' '}
-              <strong className="text-yellow">Oriol, de la Casa del Mig, y todo su equipo</strong>.
+              <strong className="text-yellow">Urban Agenda</strong>, &{' '}
+              <strong className="text-yellow">Oriol, de la Casa del Mig{t('footer_oriol_team')}</strong>.
             </p>
             <p>
-              Y finalmente, gracias a todos los colaboradores, voluntarios y personas que han formado parte de SNT4EVER y de los Sants Fest durante estos años, porque al final sois los que hacéis que el proyecto siga creciendo edición tras edición.
+              {t('footer_thanks_final')}
             </p>
           </motion.div>
 

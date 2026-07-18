@@ -41,7 +41,7 @@ export const analyticsService = {
   trackEvent: (eventName: string, properties?: Record<string, unknown>) => {
     // Placeholder for analytics tracking
     if (typeof window !== 'undefined' && 'gtag' in window) {
-      const gtag = (window as any).gtag;
+      const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
       if (gtag) gtag('event', eventName, properties);
     }
   },
@@ -49,7 +49,7 @@ export const analyticsService = {
   trackPageView: (page: string) => {
     // Placeholder for page view tracking
     if (typeof window !== 'undefined' && 'gtag' in window) {
-      const gtag = (window as any).gtag;
+      const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
       if (gtag) {
         gtag('config', 'GA_MEASUREMENT_ID', {
           page_path: page,

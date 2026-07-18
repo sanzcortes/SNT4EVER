@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "hero": "El proyecto",
+    "story": "Historia",
+    "archive": "Archivo",
+    "news": "Noticias",
+    "docs": "Documentos",
+    "join": "¡Únete!",
+    "contact": "Contacto"
+  },
+  "jsx_archive": "Archivo",
+  "jsx_explore_our_collection_of_hist": "Explora nuestra colección de fotos históricas, vídeos y documentos que cuentan la historia de Sants Skate Plaza.",
+  "jsx_photo_archive": "Archivo Fotográfico",
+  "jsx_video_archive": "Archivo de Vídeo",
+  "jsx_join_us": "¡Forma parte de la familia Sants y mantente al día 24/7 uniéndote a nosotros!",
+  "jsx_become_a_member_of_snt_and_hel": "Become a member of SNT and help us preserve the skate plaza for future generations.",
+  "jsx__nete_a_la_asociaci_n": "Únete a la asociación",
+  "jsx_contact": "Contact",
+  "jsx_get_in_touch_with_us_for_colla": "Get in touch with us for collaborations, donations, or any questions about the project.",
+  "jsx_next": "Next →",
+  "jsx_no_timeline_events_available": "No timeline events available",
+  "jsx_click_any_year_to_jump_to_that": "Click any year to jump to that timeline section",
+  "jsx_collaborators": "Collaborators",
+  "jsx_key_moments": "Momentos Clave",
+  "docs_save_snt_desc": "Documento inicial de la asociación en el que se explica qué es la asociación, los beneficios del skate en Barcelona, la historia de la plaza y otros ejemplos europeos de referencia.",
+  "docs_gent_de_placa_desc": "Documento que muestra la variedad de usuarios que se pueden encontrar en la plaza.",
+  "docs_show_more": "Muestra más",
+  "jsx_info_snt4ever_com": "info@snt4ever.com",
+  "jsx_location": "Location",
+  "jsx_sants_skate_plaza": "Sants Skate Plaza",
+  "jsx_barcelona_spain": "Barcelona, Spain",
+  "jsx_social": "Social",
+  "jsx__snt4ever": "@snt4ever",
+  "jsx_snt4ever_all_rights_reserved": "SNT4EVER. All rights reserved.",
+  "jsx_privacy_policy": "Privacy Policy",
+  "jsx_terms_of_service": "Terms of Service",
+  "jsx_cookies": "Cookies",
+  "jsx_made_with_in_barcelona_spain": "Made with ❤️ in Barcelona, Spain",
+  "jsx_snt4ever_es_una_asociaci_n_for": "SNT4EVER es una asociación formada por skaters de Barcelona que han dinamizado el espacio de la estación de Sants de manera totalmente independiente y que ahora se constituye como asociación entre el ayuntamiento, los vecinos y los patinadores de la plaza, para ",
+  "jsx_salvar_una_plaza_m_tica_dentro": "salvar una plaza mítica dentro del mundo del skateboarding e iniciar el diálogo",
+  "jsx_entre_el_ayuntamiento_y_los_sk": "entre el ayuntamiento y los skaters. Además de promover la cultura urbana, en concreto la del skateboarding, entre las diferentes asociaciones del barrio, escuelas y todo el que esté interesado en colaborar con nosotros.",
+  "jsx_firma_la_petici_n": "Firma la petición",
+  "jsx_desde_1983_defendiendo_el_skat": "Desde 1983 defendiendo el skate en Barcelona",
+  "jsx_news_events": "Noticias y Eventos",
+  "jsx_stay_updated_with_the_latest_h": "Mantente al día de los últimos sucesos, eventos y noticias de SNT y la comunidad del skate.",
+  "jsx_all": "All",
+  "jsx_news": "News",
+  "jsx_events": "Events",
+  "jsx_image": "Image",
+  "jsx_load_more_news": "Load More News",
+  "jsx_stay_connected": "Stay Connected",
+  "jsx_subscribe_to_our_newsletter_fo": "Subscribe to our newsletter for weekly updates on events, news, and ways to support the skate plaza.",
+  "jsx_subscribe": "Subscribe",
+  "jsx_nuestra_historia": "Nuestra Historia",
+  "jsx_desde_la_visi_n_arquitect_nica": "Desde la visión arquitectónica hasta el hito cultural, sigue el viaje de la Plaça dels Països Catalans y la comunidad que lucha por preservarla.",
+  "jsx_view_archive": "View Archive",
+  "jsx_click_to_play_youtube": "Click to play • YouTube",
+  "jsx_youtube": "YouTube",
+  "jsx_close": "Cerrar",
+  "jsx_view_more": "Ver más",
+  "jsx_write_us": "Escríbenos",
+  "jsx_follow_us": "Síguenos",
+  "footer_thanks_general": "Queremos hacer un agradecimiento general a todas las personas y entidades que hacen crecer el proyecto cada año.",
+  "footer_especially_to": "Especialmente a: ",
+  "footer_raisa_role": "(por aportar la visión de la mujer dentro del skate desde el primer día)",
+  "footer_blai_role": "(por su apoyo incondicional)",
+  "footer_cas_role": "(por las meriendas)",
+  "footer_oriol_team": " y todo su equipo",
+  "footer_thanks_final": "Y finalmente, gracias a todos los colaboradores, voluntarios y personas que han formado parte de SNT4EVER y de los Sants Fest durante estos años, porque al final sois los que hacéis que el proyecto siga creciendo edición tras edición.",
+  "timeline": {
+    "1983": {
+      "title": "El Nacimiento de la \"Plaza Dura\"",
+      "content": "Diseñada por los arquitectos Albert Viaplana y Helio Piñón, la plaza se presenta como una ruptura con el urbanismo tradicional. Ante la imposibilidad de plantar árboles sobre la losa ferroviaria, se crea una superficie mineral de granito y metal. En 1983 recibe el Premio FAD de Arquitectura, consolidándose como un referente internacional de la arquitectura moderna."
+    },
+    "1985": {
+      "title": "El Descubrimiento",
+      "content": "Mientras Barcelona se preparaba para los Juegos Olímpicos, los primeros skaters locales descubrieron que el granito pulido y las formas abstractas de la plaza eran perfectas para patinar. Lo que fue diseñado como un espacio de tránsito se convirtió en un laboratorio de trucos, comenzando el uso de los bancos de granito originales.",
+      "events": [
+        "Apropiación del espacio arquitectónico",
+        "Uso original de los bancos de granito"
+      ]
+    },
+    "2012": {
+      "title": "Deterioro y Olvido Institucional",
+      "content": "Las obras de la llegada del AVE degradaron el entorno. Se realizaron parches de hormigón y se eliminaron elementos originales. Ante la falta de mantenimiento por parte del Ayuntamiento o Adif, los patinadores locales empezaron a cuidar el espacio de forma informal, limpiando y reparando lo que podían."
+    },
+    "2018": {
+      "title": "Mantenimiento DIY",
+      "content": "Los locales de Sants llevaron cemento, masilla y herramientas para arreglar los bordillos de granito destrozados. Se recuperaron bancos que estaban fuera de uso. El spot ya no era solo un lugar para patinar, era un espacio autogestionado por la comunidad local.",
+      "events": [
+        "Reparaciones con cemento y herramientas propias",
+        "Limpieza y mantenimiento informal",
+        "Construcción de comunidad autogestionada"
+      ]
+    }
+  }
+}

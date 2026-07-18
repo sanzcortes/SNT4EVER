@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "hero": "The project",
+    "story": "Our story",
+    "archive": "Archive",
+    "news": "News",
+    "docs": "Docs",
+    "join": "Join us!",
+    "contact": "Contact"
+  },
+  "jsx_archive": "Archive",
+  "jsx_explore_our_collection_of_hist": "Explore our collection of historical photos, videos, and documents that tell the story of Sants Skate Plaza.",
+  "jsx_photo_archive": "Photo Archive",
+  "jsx_video_archive": "Video Archive",
+  "jsx_join_us": "Be part of Sants family and stay updated 24/7 by joining us!",
+  "jsx_become_a_member_of_snt_and_hel": "Become a member of SNT and help us preserve the skate plaza for future generations.",
+  "jsx__nete_a_la_asociaci_n": "Join the association",
+  "jsx_contact": "Contact",
+  "jsx_get_in_touch_with_us_for_colla": "Get in touch with us for collaborations, donations, or any questions about the project.",
+  "jsx_next": "Next →",
+  "jsx_no_timeline_events_available": "No timeline events available",
+  "jsx_click_any_year_to_jump_to_that": "Click any year to jump to that timeline section",
+  "jsx_collaborators": "Collaborators",
+  "jsx_key_moments": "Key Moments",
+  "docs_save_snt_desc": "Initial document of the association explaining what the association is, the benefits of skateboarding in Barcelona, the history of the square and other European examples of reference.",
+  "docs_gent_de_placa_desc": "Document that shows the variety of users that can be found in the square.",
+  "docs_show_more": "Show more",
+  "jsx_info_snt4ever_com": "info@snt4ever.com",
+  "jsx_location": "Location",
+  "jsx_sants_skate_plaza": "Sants Skate Plaza",
+  "jsx_barcelona_spain": "Barcelona, Spain",
+  "jsx_social": "Social",
+  "jsx__snt4ever": "@snt4ever",
+  "jsx_snt4ever_all_rights_reserved": "SNT4EVER. All rights reserved.",
+  "jsx_privacy_policy": "Privacy Policy",
+  "jsx_terms_of_service": "Terms of Service",
+  "jsx_cookies": "Cookies",
+  "jsx_made_with_in_barcelona_spain": "Made with ❤️ in Barcelona, Spain",
+  "jsx_snt4ever_es_una_asociaci_n_for": "SNT4EVER is an association formed by skateboarders from Barcelona who have revitalized the Sants station space entirely independently. Now established as an association among the city council, neighbors, and plaza skaters, aiming to ",
+  "jsx_salvar_una_plaza_m_tica_dentro": "save a mythical plaza in the skateboarding world and initiate a dialogue",
+  "jsx_entre_el_ayuntamiento_y_los_sk": "between the city council and skateboarders. Also promoting urban culture, specifically skateboarding, among local neighborhood associations, schools, and anyone interested in collaborating with us.",
+  "jsx_firma_la_petici_n": "Sign the petition",
+  "jsx_desde_1983_defendiendo_el_skat": "Since 1983 defending skate in Barcelona",
+  "jsx_news_events": "News & Events",
+  "jsx_stay_updated_with_the_latest_h": "Stay updated with the latest happenings, events, and news from SNT and the skate community.",
+  "jsx_all": "All",
+  "jsx_news": "News",
+  "jsx_events": "Events",
+  "jsx_image": "Image",
+  "jsx_load_more_news": "Load More News",
+  "jsx_stay_connected": "Stay Connected",
+  "jsx_subscribe_to_our_newsletter_fo": "Subscribe to our newsletter for weekly updates on events, news, and ways to support the skate plaza.",
+  "jsx_subscribe": "Subscribe",
+  "jsx_nuestra_historia": "Our History",
+  "jsx_desde_la_visi_n_arquitect_nica": "From the architectural vision to a cultural milestone, follow the journey of the Plaça dels Països Catalans and the community fighting to preserve it.",
+  "jsx_view_archive": "View Archive",
+  "jsx_click_to_play_youtube": "Click to play • YouTube",
+  "jsx_youtube": "YouTube",
+  "jsx_close": "Close",
+  "jsx_view_more": "View more",
+  "jsx_write_us": "Write us",
+  "jsx_follow_us": "Follow us",
+  "footer_thanks_general": "We want to give a general thanks to all the people and entities that make the project grow every year.",
+  "footer_especially_to": "Especially to: ",
+  "footer_raisa_role": "(for bringing the vision of women in skateboarding since day one)",
+  "footer_blai_role": "(for his unconditional support)",
+  "footer_cas_role": "(for the snacks)",
+  "footer_oriol_team": " and all his team",
+  "footer_thanks_final": "And finally, thanks to all the collaborators, volunteers, and people who have been part of SNT4EVER and the Sants Fests over these years, because in the end, you are the ones who make the project keep growing edition after edition.",
+  "timeline": {
+    "1983": {
+      "title": "The Birth of the \"Plaza Dura\"",
+      "content": "Designed by architects Albert Viaplana and Helio Piñón, the plaza represents a break from traditional urbanism. Unable to plant trees on the railway slab, a mineral surface of granite and metal was created. In 1983 it won the FAD Architecture Prize, establishing itself as an international benchmark of modern architecture."
+    },
+    "1985": {
+      "title": "The Discovery",
+      "content": "While Barcelona was preparing for the Olympic Games, early local skaters discovered that the plaza's polished granite and abstract shapes were perfect for skating. Designed as a transit space, it became a laboratory for tricks, marking the beginning of the original granite benches' use.",
+      "events": [
+        "Appropriation of the architectural space",
+        "Original use of granite benches"
+      ]
+    },
+    "2012": {
+      "title": "Deterioration and Institutional Neglect",
+      "content": "Construction for the AVE train degraded the environment. Concrete patches were applied, and original elements were removed. Given the lack of maintenance by the City Council or Adif, local skaters informally began caring for the space, cleaning and repairing what they could."
+    },
+    "2018": {
+      "title": "DIY Maintenance",
+      "content": "Sants locals brought cement, putty, and tools to fix the destroyed granite ledges. Benches that were out of use were recovered. The spot was no longer just a place to skate; it became a self-managed space by the local community.",
+      "events": [
+        "Repairs using their own cement and tools",
+        "Informal cleaning and maintenance",
+        "Building a self-managed community"
+      ]
+    }
+  }
+}
